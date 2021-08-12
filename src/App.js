@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Challenge from './ReactChallenge1/challenge';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Challenge/>
     </div>
   );
 }
